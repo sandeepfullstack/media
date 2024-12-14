@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -220,7 +221,7 @@
 
     <script>
         // http://localhost/media/audioPlayer/?file_name=/JSON/HanumanChalisaVikrantSinghTomar.json
-        const BASE_PATH='https://raw.githubusercontent.com/sandeepfullstack/media/master';
+        const BASE_PATH = 'https://raw.githubusercontent.com/sandeepfullstack/media/master';
         // const BASE_PATH='http://localhost/media';
         const tracks = [];
         // Function to get query string parameter value by name
@@ -233,9 +234,9 @@
             const response = await fetch(apiPath);
             const result = await response.json();
             if (!!result) {
-                const file_folder=result?.path;
+                const file_folder = result?.path;
                 const libraryName = document.getElementById('libraryName');
-                libraryName.textContent = result?.title;                
+                libraryName.textContent = result?.title;
                 result?.data.forEach(async (file) => {
                     const title = file.length > 10 ? file.substring(0, 18) + '...' : file;
                     await tracks.push({ src: `${BASE_PATH + '/' + file_folder + file}`, title: title.replace('.mp3', '') });
@@ -247,9 +248,9 @@
             const file_name = getQueryStringParameter('file_name');
             if (!!file_name) {
                 // '/JSON/HanumanChalisaVikrantSinghTomar.json'
-                fileLocation = BASE_PATH+file_name;
+                fileLocation = BASE_PATH + file_name;
                 // console.log(fileLocation);
-            }            
+            }
             await loadMediaLibrary(fileLocation);
             // console.log(tracks);
 
@@ -294,8 +295,8 @@
                         artist: 'Panghal Library',
                         album: 'Album Name',
                         artwork: [
-                            { src: 'my-music-player.png', sizes: '96x96', type: 'image/jpeg' },
-                            { src: 'my-music-player.png', sizes: '128x128', type: 'image/jpeg' }
+                            { src:   './my-music-player.png', sizes: '96x96', type: 'image/jpeg' },
+                            { src:  './my-music-player.png', sizes: '128x128', type: 'image/jpeg' }
                         ]
                     });
 
