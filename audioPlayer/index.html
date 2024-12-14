@@ -220,6 +220,8 @@
     </div>
 
     <script>
+        const BASE_PATH='https://raw.githubusercontent.com/sandeepfullstack/media/master';
+        //    const BASE_PATH = 'https://raw.githubusercontent.com/sandeepfullstack/sandeepfullstack.github.io/master/book/PatanjalisYogaSutras';
         const tracks = [];
         // Function to get query string parameter value by name
         function getQueryStringParameter(name) {
@@ -231,27 +233,22 @@
             const response = await fetch(apiPath);
             const result = await response.json();
             if (!!result) {
-                const BASE_PATH = result?.path;
+                const file_folder=result?.path;
                 const libraryName = document.getElementById('libraryName');
-                libraryName.textContent = result?.title;
-                //    const BASE_PATH = 'https://raw.githubusercontent.com/sandeepfullstack/sandeepfullstack.github.io/master/book/PatanjalisYogaSutras';
-
+                libraryName.textContent = result?.title;                
                 result?.data.forEach(async (file) => {
-                    // console.log(file);
-                    // await tracks.push({ src: `${BASE_PATH + '/' + file}`, title: file.replace('.mp3', '') });
                     const title = file.length > 10 ? file.substring(0, 18) + '...' : file;
-                    await tracks.push({ src: `${BASE_PATH + '/' + file}`, title: title.replace('.mp3', '') });
+                    await tracks.push({ src: `${BASE_PATH + '/' + file_folder + file}`, title: title.replace('.mp3', '') });
                 })
             }
         }
 
         (async () => {
             const file_name = getQueryStringParameter('file_name');
-            const file_type = getQueryStringParameter('file_type') || 'json';
-            let fileLocation = './JSON/HanumanChalisaVikrantSinghTomar.json';
             if (!!file_name) {
-                fileLocation = `${file_name}.${file_type}`;
-                console.log(fileLocation);
+                // '/JSON/HanumanChalisaVikrantSinghTomar.json'
+                fileLocation = BASE_PATH+file_name;
+                // console.log(fileLocation);
             }            
             await loadMediaLibrary(fileLocation);
             // console.log(tracks);
@@ -269,13 +266,6 @@
             const nextBtn = document.getElementById('nextBtn');
             const playlistContainer = document.getElementById('playlist');
             const speedSelect = document.getElementById('speedSelect');
-
-            // Example list of tracks (replace with actual file paths)
-            // const BASE_PATH = 'https://raw.githubusercontent.com/sandeepfullstack/sandeepfullstack.github.io/master/book/PatanjalisYogaSutras';
-            /* const BASE_PATH = 'https://raw.githubusercontent.com/sandeepfullstack/sandeepfullstack.github.io/master/book/PatanjalisYogaSutras';
-            for (let index = 1; index <= 63; index++) {
-                tracks.push({ src: `${BASE_PATH}/ch${index}.mp3`, title: `Chapter ${index}` });
-            } */
             let currentTrackIndex = 0;
 
             // Function to load a track and update the speed
