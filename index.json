@@ -1,15 +1,17 @@
 {
     "audio": {
-        "HanumanJi": [
+        "Hindi": [
             {
                 "name": "Hanuman Chalisa Explained by Vikrant Singh Tomar",
                 "filename": "audioPlayer/index.html?file_name=/JSON/HanumanChalisaVikrantSinghTomar.json"
-            }
-        ],
-        "Ved": [
+            },
             {
                 "name": "Vedant by Vikrant Singh Tomar",
                 "filename": "audioPlayer/index.html?file_name=/JSON/VedantaVikrantSinghTomar.json"
+            },
+            {
+                "name": "Shree Bhagavad Gita",
+                "filename": "audioPlayer/index.html?file_name=/JSON/ShreeBhagavadGita.json"
             }
         ]
     },
