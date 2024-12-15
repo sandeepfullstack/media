@@ -1,0 +1,20 @@
+{
+    "audio": {
+        "Hanuman": [
+            {
+                "name": "Hanuman Chalisa Explained by Vikrant Singh Tomar",
+                "filename": "audioPlayer/index.html?file_name=/JSON/HanumanChalisaVikrantSinghTomar.json"
+            }
+        ]
+    },
+    "pdf": {
+        "Vivekananda": [
+            {
+                "name": "Physics Basics",
+                "filename": "physics_basics.pdf"
+            }
+        ]
+    },
+    "video": {},
+    "images": {}
+}
