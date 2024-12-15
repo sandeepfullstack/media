@@ -14,10 +14,11 @@
         ]
     },
     "pdf": {
-        "Vivekananda": [
+        "HanumanJi": [
             {
-                "name": "Physics Basics",
-                "filename": "physics_basics.pdf"
+                "name": "Hanuman Chalisa",
+                "filename_mobile": "pdfReader/mobile/index.html?book=/media/pdf/hanuman-chalisa.pdf&pagesPerSet",
+                "filename": "pdfReader/index.html?book=/media/pdf/hanuman-chalisa.pdf"
             }
         ]
     },
