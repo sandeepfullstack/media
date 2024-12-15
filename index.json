@@ -3,15 +3,18 @@
         "Hindi": [
             {
                 "name": "Hanuman Chalisa Explained by Vikrant Singh Tomar",
-                "filename": "audioPlayer/index.html?file_name=/JSON/HanumanChalisaVikrantSinghTomar.json"
+                "filename": "audioPlayer/index.html?file_name=/JSON/HanumanChalisaVikrantSinghTomar.json",
+                "filename_autoplay": "audioPlayer/autoPlay.html?file_name=/JSON/HanumanChalisaVikrantSinghTomar.json"
             },
             {
                 "name": "Vedant by Vikrant Singh Tomar",
-                "filename": "audioPlayer/index.html?file_name=/JSON/VedantaVikrantSinghTomar.json"
+                "filename": "audioPlayer/index.html?file_name=/JSON/VedantaVikrantSinghTomar.json",
+                "filename_autoplay": "audioPlayer/autoPlay.html?file_name=/JSON/VedantaVikrantSinghTomar.json"
             },
             {
                 "name": "Shree Bhagavad Gita",
-                "filename": "audioPlayer/index.html?file_name=/JSON/ShreeBhagavadGita.json"
+                "filename": "audioPlayer/index.html?file_name=/JSON/ShreeBhagavadGita.json",
+                "filename_autoplay": "audioPlayer/autoPlay.html?file_name=/JSON/ShreeBhagavadGita.json"
             }
         ]
     },
