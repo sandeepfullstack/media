@@ -27,7 +27,12 @@
                 "name": "Rich Dad Poor Dad",
                 "filename": "audioPlayer/index.html?file_name=/JSON/RichDadPoorDad.json",
                 "filename_autoplay": "audioPlayer/autoPlay.html?file_name=/JSON/RichDadPoorDad.json"
-            }            
+            }    ,
+            {
+                "name": "The Seven Habits Of Highly Effective People",
+                "filename": "audioPlayer/index.html?file_name=/JSON/TheSevenHabitsOfHighlyEffectivePeople.json",
+                "filename_autoplay": "audioPlayer/autoPlay.html?file_name=/JSON/TheSevenHabitsOfHighlyEffectivePeople.json"
+            }                        
         ]
     },
     "pdf": {
