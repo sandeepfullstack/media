@@ -22,7 +22,12 @@
                 "name": "Atomic Habits",
                 "filename": "audioPlayer/index.html?file_name=/JSON/AtomicHabits.json",
                 "filename_autoplay": "audioPlayer/autoPlay.html?file_name=/JSON/AtomicHabits.json"
-            }
+            },
+            {
+                "name": "Rich Dad Poor Dad",
+                "filename": "audioPlayer/index.html?file_name=/JSON/RichDadPoorDad.json",
+                "filename_autoplay": "audioPlayer/autoPlay.html?file_name=/JSON/RichDadPoorDad.json"
+            }            
         ]
     },
     "pdf": {
