@@ -43,7 +43,7 @@
                 "filename": "pdfReader/index.html?book=/media/pdf/hanuman-chalisa.pdf",
                 "file_text_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/hanuman-chalisa.pdf&text=true&canva=false",
                 "file_canva_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/hanuman-chalisa.pdf&text=false&canva=true",
-                "file_text_canva_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/hanuman-chalisa.pdf&text=true&canva=true",
+                "file_text_canva_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/hanuman-chalisa.pdf&text=true&canva=true"
             }
         ]
     },
