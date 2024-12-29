@@ -45,6 +45,16 @@
                 "file_canva_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/hanuman-chalisa.pdf&text=false&canva=true",
                 "file_text_canva_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/hanuman-chalisa.pdf&text=true&canva=true"
             }
+        ],
+        "English": [
+            {
+                "name": "American Literature English",
+                "filename_mobile": "pdfReader/mobile/index.html?book=/media/pdf/AmericanLiteratureEnglish.pdf&pagesPerSet",
+                "filename": "pdfReader/index.html?book=/media/pdf/AmericanLiteratureEnglish.pdf",
+                "file_text_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/AmericanLiteratureEnglish.pdf&text=true&canva=false",
+                "file_canva_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/AmericanLiteratureEnglish.pdf&text=false&canva=true",
+                "file_text_canva_mobile": "pdfReader/mobile1/index.html?book=/media/pdf/AmericanLiteratureEnglish.pdf&text=true&canva=true"
+            }
         ]
     },
     "video": {},
